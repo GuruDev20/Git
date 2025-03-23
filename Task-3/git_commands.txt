@@ -1,0 +1,33 @@
+mkdir Task-3
+cd Task-3
+
+"Hello"
+
+git add file.txt
+git commit -m "First commit: Added Hello"
+
+"World"
+
+git restore file.txt // Undo changes before committing
+
+"World"
+
+git add file.txt
+git commit -m "Second commit: Added World"
+
+"Welcome"
+
+git add file.txt
+git commit -m "Third commit: Added Welcome"
+
+
+git reset --soft HEAD~1 // Remove last commit, keep changes staged
+git reset --mixed HEAD~1 // Remove last commit, keep changes unstaged
+git reset --hard HEAD~1 // Completely remove last commit and changes
+
+"World"
+
+git add file.txt
+git commit -m "Second commit: Added World"
+
+git revert HEAD  // Undo last commit by creating a new commit
