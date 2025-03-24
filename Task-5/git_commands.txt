@@ -1,0 +1,9 @@
+git rebase -i HEAD~n // n will be number
+
+squash // Combine commits
+
+reword // Edit commit messages
+
+drop // Remove commits
+
+edit // Modify a commit
