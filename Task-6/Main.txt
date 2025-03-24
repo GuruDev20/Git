@@ -1,3 +1,0 @@
-This is Main.txt with git stash
-
-Hi Hello Everyone
