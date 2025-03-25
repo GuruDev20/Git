@@ -1,0 +1,19 @@
+git remote add origin "url"
+
+git branch -M main  //To rename branch name
+
+git push -u origin main // push the main branch to remote repo
+
+Create new branch and mke changes and push to remote 
+
+Open a pull request // compare and pull request, then merge it after changes
+
+Merge the pull request and Pull Changes Locally
+
+git checkout main 
+
+git pull origin main 
+
+git branch -d feature-branch
+
+git push origin --delete feature-branch // delete the remote branch
