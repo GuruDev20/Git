@@ -1,0 +1,1 @@
+one of the pre-commits checks whether there is no content with trailing white spaces, if so then it will not allow to commit the file
